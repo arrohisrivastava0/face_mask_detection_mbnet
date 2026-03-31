@@ -75,7 +75,7 @@ def detect_faces(frame, detector_type, detector):
 
     if detector_type == "dnn":
         blob = cv2.dnn.blobFromImage(frame, 1.0, (300, 300),
-                                     (104.0, 177.0, 123.0))
+                (104.0, 177.0, 123.0))
         detector.setInput(blob)
         detections = detector.forward()
         for i in range(detections.shape[2]):

@@ -1,8 +1,11 @@
 # Project Report — Face Mask Detection
 
 **Course:** Computer Vision
+
 **Student Name:** Arrohi Srivastava
+
 **Student Registration Number:** 22MIM10031 
+
 **Submission Date:** 31/03/2026
 
 ---
