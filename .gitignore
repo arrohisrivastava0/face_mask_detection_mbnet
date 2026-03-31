@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# Model files
+model/
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+saved_model/
+
+# Dataset
+dataset/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+
+# Logs & output
+logs/
+*.log
+runs/
+output/
+results/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.csv
+*.json
+!package.json
